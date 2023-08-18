@@ -1,0 +1,9 @@
+$color_primary: blue;
+$color_second: grey;
+$color_comp_primary: complement($color_primary);
+$color_light_primary: lighten($color_primary, 20);
+$color_dark_primary: darken($color_primary, 30);
+$body_color: silver;
+$header_color: rgba(200,215,50,0.8);
+$breakpoint_mobile: 700px;
+$breakpoint_tablet: 1024px;

@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixins";
+@import "header";
+
+body {
+    background-color: $color_comp_primary;
+    @include desktopView($breakpoint_mobile) {
+        background-color: green;
+        border: 10px solid red;
+    }
+}
+.light {
+    background-color: $color_light_primary;
+    height: 100px;
+}
+
+.dark {
+    background-color: $color_dark_primary;
+    height: 100px;
+}

@@ -1,0 +1,13 @@
+.header_page {
+    background-color: $header_color;
+    font-family: Verdana;
+}
+.nav_page {
+    background-color: $color_second;
+    &-item a, &-item a:visited {
+        color: red;
+    }
+    &-item--active a, &-item--active a:visited {
+        color: green;
+    }
+}
